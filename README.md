@@ -1,1 +1,16 @@
 # hse_hw3_chromhmm
+
+wgEncodeBroadHistoneNhaH2
+
+wgEncodeBroadHistoneNhaH3k27me3
+wgEncodeBroadHistoneNhaH3k36me3
+wgEncodeBroadHistoneNhaH3k4me1
+wgEncodeBroadHistoneNhaH3k04me2
+wgEncodeBroadHistoneNhaH3k4me3
+wgEncodeBroadHistoneNhaH3k79me2
+wgEncodeBroadHistoneNhaH3k09ac
+wgEncodeBroadHistoneNhaH3k09me3
+wgEncodeBroadHistoneNhaH4k20me1
+
+wgEncodeBroadHistoneNhaControl
+
