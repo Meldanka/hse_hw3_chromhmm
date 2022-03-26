@@ -172,7 +172,7 @@ Chromhmm основана на скрытых марковских цепях.
 
 <img width="1000" alt="Снимок экрана 2022-03-25 в 00 51 18" src="https://user-images.githubusercontent.com/91221560/160016661-273a02d2-ce52-4622-896f-8ccf5b398a94.png">
 
-**Бонус**
+# Бонус
 <img width="1168" alt="Снимок экрана 2022-03-26 в 03 47 36" src="https://user-images.githubusercontent.com/91221560/160218033-399d6a4c-8372-4819-ba68-b8826cd15937.png">
 
 
