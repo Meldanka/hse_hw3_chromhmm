@@ -1,28 +1,94 @@
 # hse_hw3_chromhmm
 
-wgEncodeBroadHistoneNhaH2
+google colab: https://colab.research.google.com/drive/1hqAUsNBc0UD-PclQM4ocM1dLX9kc7p9o?usp=sharing
 
-wgEncodeBroadHistoneNhaH3k27me3
+<table border="0">
+<tr>
+<td>H2AFZ</td>
+<td>wgEncodeBroadHistoneNhaH2azAlnRep1.bam</td>
+</tr>
+</table>
 
-wgEncodeBroadHistoneNhaH3k36me3
+<table border="0">
+<tr>
+<td>H3k27me3</td>
+<td>wgEncodeBroadHistoneNhaH3k27me3StdAlnRep1.bam</td>
+</tr>
+</table>
 
-wgEncodeBroadHistoneNhaH3k4me1
+<table border="0">
+<tr>
+<td>H3k36me3</td>
+<td>wgEncodeBroadHistoneNhaH3k36me3StdAlnRep1.bam</td>
+</tr>
+</table>
 
-wgEncodeBroadHistoneNhaH3k04me2
+<table border="0">
+<tr>
+<td>H3k4me1</td>
+<td>wgEncodeBroadHistoneNhaH3k4me1StdAlnRep1.bam</td>
+</tr>
+</table>
 
-wgEncodeBroadHistoneNhaH3k4me3
+<table border="0">
+<tr>
+<td>H3k04me2</td>
+<td>wgEncodeBroadHistoneNhaH3k04me2AlnRep1.bam</td>
+</tr>
+</table>
 
-wgEncodeBroadHistoneNhaH3k79me2
+<table border="0">
+<tr>
+<td>H3k4me3</td>
+<td>wgEncodeBroadHistoneNhaH3k4me3StdAlnRep1.bam</td>
+</tr>
+</table>
 
-wgEncodeBroadHistoneNhaH3k09ac
+<table border="0">
+<tr>
+<td>H3k79me2</td>
+<td>wgEncodeBroadHistoneNhaH3k79me2AlnRep1.bam</td>
+</tr>
+</table>
 
-wgEncodeBroadHistoneNhaH3k09me3
+<table border="0">
+<tr>
+<td>H3k09ac</td>
+<td>wgEncodeBroadHistoneNhaH3k09acAlnRep1.bam</td>
+</tr>
+</table>
 
-wgEncodeBroadHistoneNhaH4k20me1
+<table border="0">
+<tr>
+<td>H3k09me3</td>
+<td>wgEncodeBroadHistoneNhaH3k09me3AlnRep1.bam</td>
+</tr>
+</table>
 
-wgEncodeBroadHistoneNhaControl
+<table border="0">
+<tr>
+<td>H4k20me1</td>
+<td>wgEncodeBroadHistoneNhaH4k20me1AlnRep1.bam</td>
+</tr>
+</table>
 
-Разбили геном на 10 сегментов.
+<table border="0">
+<tr>
+<td>Control</td>
+<td>wgEncodeBroadHistoneNhaControlStdAlnRep1.bam</td>
+</tr>
+</table>
+
+Код для создания файла cellmarkfiletable.txt:
+
+<img width="911" alt="Снимок экрана 2022-03-26 в 04 12 00" src="https://user-images.githubusercontent.com/91221560/160218774-f563eae6-8620-47c4-98b3-230c24800fe2.png">
+
+ChromHMM с опцией LearnModel: 
+
+!java -mx5000M -jar /content/ChromHMM/ChromHMM.jar LearnModel -b 200 /content/binarizedData/ /content/learnData 10 hg19
+
+Разбили геном на 10 состояний.
+
 Chromhmm основана на скрытых марковских цепях.
 
 <p float="left">
@@ -105,3 +171,10 @@ Chromhmm основана на скрытых марковских цепях.
 <img width="1000" alt="Снимок экрана 2022-03-25 в 00 24 51" src="https://user-images.githubusercontent.com/91221560/160012920-08580e56-b34e-4920-9347-8907a940e1a5.png">
 
 <img width="1000" alt="Снимок экрана 2022-03-25 в 00 51 18" src="https://user-images.githubusercontent.com/91221560/160016661-273a02d2-ce52-4622-896f-8ccf5b398a94.png">
+
+**Бонус**
+<img width="1168" alt="Снимок экрана 2022-03-26 в 03 47 36" src="https://user-images.githubusercontent.com/91221560/160218033-399d6a4c-8372-4819-ba68-b8826cd15937.png">
+
+
+<img width="825" alt="Снимок экрана 2022-03-26 в 03 50 16" src="https://user-images.githubusercontent.com/91221560/160218015-4089241a-ef96-41b3-ba1b-73540e7031c2.png">
+
